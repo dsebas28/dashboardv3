@@ -1,0 +1,1552 @@
+{
+  "meta": {
+    "generated_at": "2026-09-24T19:19:49-05:00",
+    "source": "SEC EDGAR - XBRL company facts API (data.sec.gov)",
+    "source_url": "https://www.sec.gov/edgar/sec-api-documentation",
+    "currency": "USD",
+    "note": "Cifras auditadas tal y como se presentan en los 10-K / 10-Q. El 4T marcado como 'derived' se calcula como anual menos los tres primeros trimestres.",
+    "companies_count": 7
+  },
+  "companies": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductores",
+      "hq": "Santa Clara, CA",
+      "cik": 1045810,
+      "fiscal_year": 2026,
+      "fiscal_year_label": "FY2026",
+      "fiscal_year_end_month": 1,
+      "annual": [
+        {
+          "fy": 2021,
+          "revenue": 16675000000.0,
+          "operating_income": 4532000000.0,
+          "net_income": 4332000000.0,
+          "gross_profit": 10396000000.0,
+          "rnd": 3924000000.0,
+          "capex": null,
+          "operating_cash_flow": 5822000000.0,
+          "free_cash_flow": null,
+          "eps_diluted": 1.73,
+          "assets": 28791000000.0,
+          "equity": 16893000000.0,
+          "cash": 847000000.0,
+          "revenue_growth": 52.729437625938814
+        },
+        {
+          "fy": 2022,
+          "revenue": 26914000000.0,
+          "operating_income": 10041000000.0,
+          "net_income": 9752000000.0,
+          "gross_profit": 17475000000.0,
+          "rnd": 5268000000.0,
+          "capex": 976000000.0,
+          "operating_cash_flow": 9108000000.0,
+          "free_cash_flow": 8132000000.0,
+          "eps_diluted": 3.85,
+          "assets": 44187000000.0,
+          "equity": 26612000000.0,
+          "cash": 1990000000.0,
+          "revenue_growth": 61.403298350824585
+        },
+        {
+          "fy": 2023,
+          "revenue": 26974000000.0,
+          "operating_income": 4224000000.0,
+          "net_income": 4368000000.0,
+          "gross_profit": 15356000000.0,
+          "rnd": 7339000000.0,
+          "capex": 1833000000.0,
+          "operating_cash_flow": 5641000000.0,
+          "free_cash_flow": 3808000000.0,
+          "eps_diluted": 0.17,
+          "assets": 41182000000.0,
+          "equity": 22101000000.0,
+          "cash": 3389000000.0,
+          "revenue_growth": 0.22293230289068885
+        },
+        {
+          "fy": 2024,
+          "revenue": 60922000000.0,
+          "operating_income": 32972000000.0,
+          "net_income": 29760000000.0,
+          "gross_profit": 44301000000.0,
+          "rnd": 8675000000.0,
+          "capex": 1069000000.0,
+          "operating_cash_flow": 28090000000.0,
+          "free_cash_flow": 27021000000.0,
+          "eps_diluted": 1.19,
+          "assets": 65728000000.0,
+          "equity": 42978000000.0,
+          "cash": 7280000000.0,
+          "revenue_growth": 125.85452658115221
+        },
+        {
+          "fy": 2025,
+          "revenue": 130497000000.0,
+          "operating_income": 81453000000.0,
+          "net_income": 72880000000.0,
+          "gross_profit": 97858000000.0,
+          "rnd": 12914000000.0,
+          "capex": 3236000000.0,
+          "operating_cash_flow": 64089000000.0,
+          "free_cash_flow": 60853000000.0,
+          "eps_diluted": 2.94,
+          "assets": 111601000000.0,
+          "equity": 79327000000.0,
+          "cash": 8589000000.0,
+          "revenue_growth": 114.20340763599357
+        },
+        {
+          "fy": 2026,
+          "revenue": 215938000000.0,
+          "operating_income": 130387000000.0,
+          "net_income": 120067000000.0,
+          "gross_profit": 153463000000.0,
+          "rnd": 18497000000.0,
+          "capex": 6042000000.0,
+          "operating_cash_flow": 102718000000.0,
+          "free_cash_flow": 96676000000.0,
+          "eps_diluted": 4.9,
+          "assets": 206803000000.0,
+          "equity": 157293000000.0,
+          "cash": 10605000000.0,
+          "revenue_growth": 65.4735357900948
+        }
+      ],
+      "quarterly": [
+        {
+          "fy": 2024,
+          "q": 3,
+          "end": "2023-10-29",
+          "revenue": 18120000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 4,
+          "revenue": 22103000000.0,
+          "derived": true,
+          "end": "2024-01-28"
+        },
+        {
+          "fy": 2025,
+          "q": 1,
+          "end": "2024-04-28",
+          "revenue": 26044000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 2,
+          "end": "2024-07-28",
+          "revenue": 30040000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 3,
+          "end": "2024-10-27",
+          "revenue": 35082000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 4,
+          "revenue": 39331000000.0,
+          "derived": true,
+          "end": "2025-01-26"
+        },
+        {
+          "fy": 2026,
+          "q": 1,
+          "end": "2025-04-27",
+          "revenue": 44062000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 2,
+          "end": "2025-07-27",
+          "revenue": 46743000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 3,
+          "end": "2025-10-26",
+          "revenue": 57006000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 4,
+          "revenue": 68127000000.0,
+          "derived": true,
+          "end": "2026-01-25"
+        },
+        {
+          "fy": 2027,
+          "q": 1,
+          "end": "2026-04-26",
+          "revenue": 81615000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2027,
+          "q": 2,
+          "end": "2026-07-26",
+          "revenue": 96221000000.0,
+          "derived": false
+        }
+      ],
+      "ttm": {
+        "revenue": 302969000000.0,
+        "period_end": "2026-07-26",
+        "period_start": "2025-10-26",
+        "label": "2026 3T - 2027 2T",
+        "growth": 83.37529809100704
+      },
+      "kpi": {
+        "revenue": 215938000000.0,
+        "revenue_growth": 65.4735357900948,
+        "net_income": 120067000000.0,
+        "net_income_growth": 64.74615806805708,
+        "operating_margin": 60.38168363141272,
+        "net_margin": 55.60253406070261,
+        "gross_margin": 71.06808435754708,
+        "rnd_intensity": 8.565884652076058,
+        "free_cash_flow": 96676000000.0,
+        "fcf_margin": 44.770258129648326,
+        "capex": 6042000000.0,
+        "capex_intensity": 2.7980253591308615,
+        "roe": 76.33333969089534,
+        "eps_diluted": 4.9,
+        "assets": 206803000000.0
+      },
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-K"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Hardware y servicios",
+      "hq": "Cupertino, CA",
+      "cik": 320193,
+      "fiscal_year": 2025,
+      "fiscal_year_label": "FY2025",
+      "fiscal_year_end_month": 9,
+      "annual": [
+        {
+          "fy": 2020,
+          "revenue": 274515000000.0,
+          "operating_income": 66288000000.0,
+          "net_income": 57411000000.0,
+          "gross_profit": 104956000000.0,
+          "rnd": 18752000000.0,
+          "capex": 7309000000.0,
+          "operating_cash_flow": 80674000000.0,
+          "free_cash_flow": 73365000000.0,
+          "eps_diluted": 3.28,
+          "assets": 323888000000.0,
+          "equity": 65339000000.0,
+          "cash": 38016000000.0,
+          "revenue_growth": 5.512080376978483
+        },
+        {
+          "fy": 2021,
+          "revenue": 365817000000.0,
+          "operating_income": 108949000000.0,
+          "net_income": 94680000000.0,
+          "gross_profit": 152836000000.0,
+          "rnd": 21914000000.0,
+          "capex": 11085000000.0,
+          "operating_cash_flow": 104038000000.0,
+          "free_cash_flow": 92953000000.0,
+          "eps_diluted": 5.61,
+          "assets": 351002000000.0,
+          "equity": 63090000000.0,
+          "cash": 34940000000.0,
+          "revenue_growth": 33.25938473307469
+        },
+        {
+          "fy": 2022,
+          "revenue": 394328000000.0,
+          "operating_income": 119437000000.0,
+          "net_income": 99803000000.0,
+          "gross_profit": 170782000000.0,
+          "rnd": 26251000000.0,
+          "capex": 10708000000.0,
+          "operating_cash_flow": 122151000000.0,
+          "free_cash_flow": 111443000000.0,
+          "eps_diluted": 6.11,
+          "assets": 352755000000.0,
+          "equity": 50672000000.0,
+          "cash": 23646000000.0,
+          "revenue_growth": 7.7937876041846055
+        },
+        {
+          "fy": 2023,
+          "revenue": 383285000000.0,
+          "operating_income": 114301000000.0,
+          "net_income": 96995000000.0,
+          "gross_profit": 169148000000.0,
+          "rnd": 29915000000.0,
+          "capex": 10959000000.0,
+          "operating_cash_flow": 110543000000.0,
+          "free_cash_flow": 99584000000.0,
+          "eps_diluted": 6.13,
+          "assets": 352583000000.0,
+          "equity": 62146000000.0,
+          "cash": 29965000000.0,
+          "revenue_growth": -2.8004605303199366
+        },
+        {
+          "fy": 2024,
+          "revenue": 391035000000.0,
+          "operating_income": 123216000000.0,
+          "net_income": 93736000000.0,
+          "gross_profit": 180683000000.0,
+          "rnd": 31370000000.0,
+          "capex": 9447000000.0,
+          "operating_cash_flow": 118254000000.0,
+          "free_cash_flow": 108807000000.0,
+          "eps_diluted": 6.08,
+          "assets": 364980000000.0,
+          "equity": 56950000000.0,
+          "cash": 29943000000.0,
+          "revenue_growth": 2.021994077514121
+        },
+        {
+          "fy": 2025,
+          "revenue": 416161000000.0,
+          "operating_income": 133050000000.0,
+          "net_income": 112010000000.0,
+          "gross_profit": 195201000000.0,
+          "rnd": 34550000000.0,
+          "capex": 12715000000.0,
+          "operating_cash_flow": 111482000000.0,
+          "free_cash_flow": 98767000000.0,
+          "eps_diluted": 7.46,
+          "assets": 359241000000.0,
+          "equity": 73733000000.0,
+          "cash": 35934000000.0,
+          "revenue_growth": 6.425511782832739
+        }
+      ],
+      "quarterly": [
+        {
+          "fy": 2023,
+          "q": 4,
+          "revenue": 89498000000.0,
+          "derived": true,
+          "end": "2023-09-30"
+        },
+        {
+          "fy": 2024,
+          "q": 1,
+          "end": "2023-12-30",
+          "revenue": 119575000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 2,
+          "end": "2024-03-30",
+          "revenue": 90753000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 3,
+          "end": "2024-06-29",
+          "revenue": 85777000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 4,
+          "revenue": 94930000000.0,
+          "derived": true,
+          "end": "2024-09-28"
+        },
+        {
+          "fy": 2025,
+          "q": 1,
+          "end": "2024-12-28",
+          "revenue": 124300000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 2,
+          "end": "2025-03-29",
+          "revenue": 95359000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 3,
+          "end": "2025-06-28",
+          "revenue": 94036000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 4,
+          "revenue": 102466000000.0,
+          "derived": true,
+          "end": "2025-09-27"
+        },
+        {
+          "fy": 2026,
+          "q": 1,
+          "end": "2025-12-27",
+          "revenue": 143756000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 2,
+          "end": "2026-03-28",
+          "revenue": 111184000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 3,
+          "end": "2026-06-27",
+          "revenue": 109417000000.0,
+          "derived": false
+        }
+      ],
+      "ttm": {
+        "revenue": 466823000000.0,
+        "period_end": "2026-06-27",
+        "period_start": "2025-09-27",
+        "label": "2025 4T - 2026 3T",
+        "growth": 14.242398286937902
+      },
+      "kpi": {
+        "revenue": 416161000000.0,
+        "revenue_growth": 6.425511782832739,
+        "net_income": 112010000000.0,
+        "net_income_growth": 19.495177946573357,
+        "operating_margin": 31.970799762591884,
+        "net_margin": 26.91506412181824,
+        "gross_margin": 46.90516410716045,
+        "rnd_intensity": 8.302075398703867,
+        "free_cash_flow": 98767000000.0,
+        "fcf_margin": 23.732882225869314,
+        "capex": 12715000000.0,
+        "capex_intensity": 3.0553079216937675,
+        "roe": 151.91298333175104,
+        "eps_diluted": 7.46,
+        "assets": 359241000000.0
+      },
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "sector": "Software y cloud",
+      "hq": "Redmond, WA",
+      "cik": 789019,
+      "fiscal_year": 2026,
+      "fiscal_year_label": "FY2026",
+      "fiscal_year_end_month": 6,
+      "annual": [
+        {
+          "fy": 2021,
+          "revenue": 168088000000.0,
+          "operating_income": 69916000000.0,
+          "net_income": 61271000000.0,
+          "gross_profit": 115856000000.0,
+          "rnd": 20716000000.0,
+          "capex": 20622000000.0,
+          "operating_cash_flow": 76740000000.0,
+          "free_cash_flow": 56118000000.0,
+          "eps_diluted": 8.05,
+          "assets": 333779000000.0,
+          "equity": 141988000000.0,
+          "cash": 14224000000.0,
+          "revenue_growth": 17.531727441177498
+        },
+        {
+          "fy": 2022,
+          "revenue": 198270000000.0,
+          "operating_income": 83383000000.0,
+          "net_income": 72738000000.0,
+          "gross_profit": 135620000000.0,
+          "rnd": 24512000000.0,
+          "capex": 23886000000.0,
+          "operating_cash_flow": 89035000000.0,
+          "free_cash_flow": 65149000000.0,
+          "eps_diluted": 9.65,
+          "assets": 364840000000.0,
+          "equity": 166542000000.0,
+          "cash": 13931000000.0,
+          "revenue_growth": 17.956070629670172
+        },
+        {
+          "fy": 2023,
+          "revenue": 211915000000.0,
+          "operating_income": 88523000000.0,
+          "net_income": 72361000000.0,
+          "gross_profit": 146052000000.0,
+          "rnd": 27195000000.0,
+          "capex": 28107000000.0,
+          "operating_cash_flow": 87582000000.0,
+          "free_cash_flow": 59475000000.0,
+          "eps_diluted": 9.68,
+          "assets": 411976000000.0,
+          "equity": 206223000000.0,
+          "cash": 34704000000.0,
+          "revenue_growth": 6.882029555656429
+        },
+        {
+          "fy": 2024,
+          "revenue": 245122000000.0,
+          "operating_income": 109433000000.0,
+          "net_income": 88136000000.0,
+          "gross_profit": 171008000000.0,
+          "rnd": 29510000000.0,
+          "capex": 44477000000.0,
+          "operating_cash_flow": 118548000000.0,
+          "free_cash_flow": 74071000000.0,
+          "eps_diluted": 11.8,
+          "assets": 512163000000.0,
+          "equity": 268477000000.0,
+          "cash": 18315000000.0,
+          "revenue_growth": 15.66996201307128
+        },
+        {
+          "fy": 2025,
+          "revenue": 281724000000.0,
+          "operating_income": 128528000000.0,
+          "net_income": 101832000000.0,
+          "gross_profit": 193893000000.0,
+          "rnd": 32488000000.0,
+          "capex": 64551000000.0,
+          "operating_cash_flow": 136162000000.0,
+          "free_cash_flow": 71611000000.0,
+          "eps_diluted": 13.64,
+          "assets": 619003000000.0,
+          "equity": 343479000000.0,
+          "cash": 30242000000.0,
+          "revenue_growth": 14.93215623240672
+        },
+        {
+          "fy": 2026,
+          "revenue": 331839000000.0,
+          "operating_income": 155237000000.0,
+          "net_income": 133749000000.0,
+          "gross_profit": 225465000000.0,
+          "rnd": 35562000000.0,
+          "capex": 115948000000.0,
+          "operating_cash_flow": 182935000000.0,
+          "free_cash_flow": 66987000000.0,
+          "eps_diluted": 17.95,
+          "assets": 758376000000.0,
+          "equity": 442387000000.0,
+          "cash": 20935000000.0,
+          "revenue_growth": 17.78868679984666
+        }
+      ],
+      "quarterly": [
+        {
+          "fy": 2024,
+          "q": 1,
+          "end": "2023-09-30",
+          "revenue": 56517000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 2,
+          "end": "2023-12-31",
+          "revenue": 62020000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 3,
+          "end": "2024-03-31",
+          "revenue": 61858000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 4,
+          "revenue": 64727000000.0,
+          "derived": true,
+          "end": "2024-06-30"
+        },
+        {
+          "fy": 2025,
+          "q": 1,
+          "end": "2024-09-30",
+          "revenue": 65585000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 2,
+          "end": "2024-12-31",
+          "revenue": 69632000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 3,
+          "end": "2025-03-31",
+          "revenue": 70066000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 4,
+          "revenue": 76441000000.0,
+          "derived": true,
+          "end": "2025-06-30"
+        },
+        {
+          "fy": 2026,
+          "q": 1,
+          "end": "2025-09-30",
+          "revenue": 77673000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 2,
+          "end": "2025-12-31",
+          "revenue": 81273000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 3,
+          "end": "2026-03-31",
+          "revenue": 82886000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 4,
+          "revenue": 90007000000.0,
+          "derived": true,
+          "end": "2026-06-30"
+        }
+      ],
+      "ttm": {
+        "revenue": 331839000000.0,
+        "period_end": "2026-06-30",
+        "period_start": "2025-09-30",
+        "label": "2026 1T - 2026 4T",
+        "growth": 17.78868679984666
+      },
+      "kpi": {
+        "revenue": 331839000000.0,
+        "revenue_growth": 17.78868679984666,
+        "net_income": 133749000000.0,
+        "net_income_growth": 31.34279990572708,
+        "operating_margin": 46.780818408927225,
+        "net_margin": 40.30538905915218,
+        "gross_margin": 67.94409337058032,
+        "rnd_intensity": 10.716642709265638,
+        "free_cash_flow": 66987000000.0,
+        "fcf_margin": 20.18659651216403,
+        "capex": 115948000000.0,
+        "capex_intensity": 34.941040685392615,
+        "roe": 30.233483352811003,
+        "eps_diluted": 17.95,
+        "assets": 758376000000.0
+      },
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-K"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "sector": "Publicidad y cloud",
+      "hq": "Mountain View, CA",
+      "cik": 1652044,
+      "fiscal_year": 2025,
+      "fiscal_year_label": "FY2025",
+      "fiscal_year_end_month": 12,
+      "annual": [
+        {
+          "fy": 2020,
+          "revenue": 182527000000.0,
+          "operating_income": 41224000000.0,
+          "net_income": 40269000000.0,
+          "gross_profit": null,
+          "rnd": 27573000000.0,
+          "capex": 22281000000.0,
+          "operating_cash_flow": 65124000000.0,
+          "free_cash_flow": 42843000000.0,
+          "eps_diluted": 2.93,
+          "assets": 319616000000.0,
+          "equity": 222544000000.0,
+          "cash": 26465000000.0,
+          "revenue_growth": 12.770532012826136
+        },
+        {
+          "fy": 2021,
+          "revenue": 257637000000.0,
+          "operating_income": 78714000000.0,
+          "net_income": 76033000000.0,
+          "gross_profit": null,
+          "rnd": 31562000000.0,
+          "capex": 24640000000.0,
+          "operating_cash_flow": 91652000000.0,
+          "free_cash_flow": 67012000000.0,
+          "eps_diluted": 5.61,
+          "assets": 359268000000.0,
+          "equity": 251635000000.0,
+          "cash": 20945000000.0,
+          "revenue_growth": 41.15007642704915
+        },
+        {
+          "fy": 2022,
+          "revenue": 282836000000.0,
+          "operating_income": 74842000000.0,
+          "net_income": 59972000000.0,
+          "gross_profit": null,
+          "rnd": 39500000000.0,
+          "capex": 31485000000.0,
+          "operating_cash_flow": 91495000000.0,
+          "free_cash_flow": 60010000000.0,
+          "eps_diluted": 4.56,
+          "assets": 365264000000.0,
+          "equity": 256144000000.0,
+          "cash": 21879000000.0,
+          "revenue_growth": 9.780815643715771
+        },
+        {
+          "fy": 2023,
+          "revenue": 307394000000.0,
+          "operating_income": 84293000000.0,
+          "net_income": 73795000000.0,
+          "gross_profit": null,
+          "rnd": 45427000000.0,
+          "capex": 32251000000.0,
+          "operating_cash_flow": 101746000000.0,
+          "free_cash_flow": 69495000000.0,
+          "eps_diluted": 5.8,
+          "assets": 402392000000.0,
+          "equity": 283379000000.0,
+          "cash": 24048000000.0,
+          "revenue_growth": 8.682770227269513
+        },
+        {
+          "fy": 2024,
+          "revenue": 350018000000.0,
+          "operating_income": 112390000000.0,
+          "net_income": 100118000000.0,
+          "gross_profit": null,
+          "rnd": 49326000000.0,
+          "capex": 52535000000.0,
+          "operating_cash_flow": 125299000000.0,
+          "free_cash_flow": 72764000000.0,
+          "eps_diluted": 8.04,
+          "assets": 450256000000.0,
+          "equity": 325084000000.0,
+          "cash": 23466000000.0,
+          "revenue_growth": 13.866243322901553
+        },
+        {
+          "fy": 2025,
+          "revenue": 402836000000.0,
+          "operating_income": 129039000000.0,
+          "net_income": 132170000000.0,
+          "gross_profit": null,
+          "rnd": 61087000000.0,
+          "capex": 91447000000.0,
+          "operating_cash_flow": 164713000000.0,
+          "free_cash_flow": 73266000000.0,
+          "eps_diluted": 10.81,
+          "assets": 595281000000.0,
+          "equity": 415265000000.0,
+          "cash": 30708000000.0,
+          "revenue_growth": 15.090081081544376
+        }
+      ],
+      "quarterly": [
+        {
+          "fy": 2023,
+          "q": 3,
+          "end": "2023-09-30",
+          "revenue": 76693000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2023,
+          "q": 4,
+          "revenue": 86310000000.0,
+          "derived": true,
+          "end": "2023-12-31"
+        },
+        {
+          "fy": 2024,
+          "q": 1,
+          "end": "2024-03-31",
+          "revenue": 80539000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 2,
+          "end": "2024-06-30",
+          "revenue": 84742000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 3,
+          "end": "2024-09-30",
+          "revenue": 88268000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 4,
+          "revenue": 96469000000.0,
+          "derived": true,
+          "end": "2024-12-31"
+        },
+        {
+          "fy": 2025,
+          "q": 1,
+          "end": "2025-03-31",
+          "revenue": 90234000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 2,
+          "end": "2025-06-30",
+          "revenue": 96428000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 3,
+          "end": "2025-09-30",
+          "revenue": 102346000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 4,
+          "revenue": 113828000000.0,
+          "derived": true,
+          "end": "2025-12-31"
+        },
+        {
+          "fy": 2026,
+          "q": 1,
+          "end": "2026-03-31",
+          "revenue": 109896000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 2,
+          "end": "2026-06-30",
+          "revenue": 119796000000.0,
+          "derived": false
+        }
+      ],
+      "ttm": {
+        "revenue": 445866000000.0,
+        "period_end": "2026-06-30",
+        "period_start": "2025-09-30",
+        "label": "2025 3T - 2026 2T",
+        "growth": 20.050404012934877
+      },
+      "kpi": {
+        "revenue": 402836000000.0,
+        "revenue_growth": 15.090081081544376,
+        "net_income": 132170000000.0,
+        "net_income_growth": 32.01422321660441,
+        "operating_margin": 32.032638592380025,
+        "net_margin": 32.80987796522654,
+        "gross_margin": null,
+        "rnd_intensity": 15.164235569810048,
+        "free_cash_flow": 73266000000.0,
+        "fcf_margin": 18.187550268595658,
+        "capex": 91447000000.0,
+        "capex_intensity": 22.700801318650765,
+        "roe": 31.82786895115167,
+        "eps_diluted": 10.81,
+        "assets": 595281000000.0
+      },
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "sector": "E-commerce y cloud",
+      "hq": "Seattle, WA",
+      "cik": 1018724,
+      "fiscal_year": 2025,
+      "fiscal_year_label": "FY2025",
+      "fiscal_year_end_month": 12,
+      "annual": [
+        {
+          "fy": 2020,
+          "revenue": 386064000000.0,
+          "operating_income": 22899000000.0,
+          "net_income": 21331000000.0,
+          "gross_profit": null,
+          "rnd": null,
+          "capex": 40140000000.0,
+          "operating_cash_flow": 66064000000.0,
+          "free_cash_flow": 25924000000.0,
+          "eps_diluted": 2.09,
+          "assets": 321195000000.0,
+          "equity": 93404000000.0,
+          "cash": 42122000000.0,
+          "revenue_growth": 37.623430604373276
+        },
+        {
+          "fy": 2021,
+          "revenue": 469822000000.0,
+          "operating_income": 24879000000.0,
+          "net_income": 33364000000.0,
+          "gross_profit": null,
+          "rnd": null,
+          "capex": 61053000000.0,
+          "operating_cash_flow": 46327000000.0,
+          "free_cash_flow": -14726000000.0,
+          "eps_diluted": 3.24,
+          "assets": 420549000000.0,
+          "equity": 138245000000.0,
+          "cash": 36220000000.0,
+          "revenue_growth": 21.695366571345684
+        },
+        {
+          "fy": 2022,
+          "revenue": 513983000000.0,
+          "operating_income": 12248000000.0,
+          "net_income": -2722000000.0,
+          "gross_profit": null,
+          "rnd": null,
+          "capex": 63645000000.0,
+          "operating_cash_flow": 46752000000.0,
+          "free_cash_flow": -16893000000.0,
+          "eps_diluted": -0.27,
+          "assets": 462675000000.0,
+          "equity": 146043000000.0,
+          "cash": 53888000000.0,
+          "revenue_growth": 9.399517263985084
+        },
+        {
+          "fy": 2023,
+          "revenue": 574785000000.0,
+          "operating_income": 36852000000.0,
+          "net_income": 30425000000.0,
+          "gross_profit": null,
+          "rnd": null,
+          "capex": 52729000000.0,
+          "operating_cash_flow": 84946000000.0,
+          "free_cash_flow": 32217000000.0,
+          "eps_diluted": 2.9,
+          "assets": 527854000000.0,
+          "equity": 201875000000.0,
+          "cash": 73387000000.0,
+          "revenue_growth": 11.829574129883673
+        },
+        {
+          "fy": 2024,
+          "revenue": 637959000000.0,
+          "operating_income": 68593000000.0,
+          "net_income": 59248000000.0,
+          "gross_profit": null,
+          "rnd": null,
+          "capex": 82999000000.0,
+          "operating_cash_flow": 115877000000.0,
+          "free_cash_flow": 32878000000.0,
+          "eps_diluted": 5.53,
+          "assets": 624894000000.0,
+          "equity": 285970000000.0,
+          "cash": 78779000000.0,
+          "revenue_growth": 10.990892246666146
+        },
+        {
+          "fy": 2025,
+          "revenue": 716924000000.0,
+          "operating_income": 79975000000.0,
+          "net_income": 77670000000.0,
+          "gross_profit": null,
+          "rnd": null,
+          "capex": 131819000000.0,
+          "operating_cash_flow": 139514000000.0,
+          "free_cash_flow": 7695000000.0,
+          "eps_diluted": 7.17,
+          "assets": 818042000000.0,
+          "equity": 411065000000.0,
+          "cash": 86810000000.0,
+          "revenue_growth": 12.377754683294695
+        }
+      ],
+      "quarterly": [
+        {
+          "fy": 2023,
+          "q": 3,
+          "end": "2023-09-30",
+          "revenue": 143083000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2023,
+          "q": 4,
+          "revenue": 169961000000.0,
+          "derived": true,
+          "end": "2023-12-31"
+        },
+        {
+          "fy": 2024,
+          "q": 1,
+          "end": "2024-03-31",
+          "revenue": 143313000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 2,
+          "end": "2024-06-30",
+          "revenue": 147977000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 3,
+          "end": "2024-09-30",
+          "revenue": 158877000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 4,
+          "revenue": 187792000000.0,
+          "derived": true,
+          "end": "2024-12-31"
+        },
+        {
+          "fy": 2025,
+          "q": 1,
+          "end": "2025-03-31",
+          "revenue": 155667000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 2,
+          "end": "2025-06-30",
+          "revenue": 167702000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 3,
+          "end": "2025-09-30",
+          "revenue": 180169000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 4,
+          "revenue": 213386000000.0,
+          "derived": true,
+          "end": "2025-12-31"
+        },
+        {
+          "fy": 2026,
+          "q": 1,
+          "end": "2026-03-31",
+          "revenue": 181519000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 2,
+          "end": "2026-06-30",
+          "revenue": 200606000000.0,
+          "derived": false
+        }
+      ],
+      "ttm": {
+        "revenue": 775680000000.0,
+        "period_end": "2026-06-30",
+        "period_start": "2025-09-30",
+        "label": "2025 3T - 2026 2T",
+        "growth": 15.766568463281185
+      },
+      "kpi": {
+        "revenue": 716924000000.0,
+        "revenue_growth": 12.377754683294695,
+        "net_income": 77670000000.0,
+        "net_income_growth": 31.09303267620848,
+        "operating_margin": 11.155296795755199,
+        "net_margin": 10.83378433418326,
+        "gross_margin": null,
+        "rnd_intensity": null,
+        "free_cash_flow": 7695000000.0,
+        "fcf_margin": 1.07333552789417,
+        "capex": 131819000000.0,
+        "capex_intensity": 18.38674671234329,
+        "roe": 18.89482198679041,
+        "eps_diluted": 7.17,
+        "assets": 818042000000.0
+      },
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-K"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "sector": "Redes sociales",
+      "hq": "Menlo Park, CA",
+      "cik": 1326801,
+      "fiscal_year": 2025,
+      "fiscal_year_label": "FY2025",
+      "fiscal_year_end_month": 12,
+      "annual": [
+        {
+          "fy": 2020,
+          "revenue": 85965000000.0,
+          "operating_income": 32671000000.0,
+          "net_income": 29146000000.0,
+          "gross_profit": null,
+          "rnd": 18447000000.0,
+          "capex": 15163000000.0,
+          "operating_cash_flow": 38747000000.0,
+          "free_cash_flow": 23584000000.0,
+          "eps_diluted": 10.09,
+          "assets": 159316000000.0,
+          "equity": 128290000000.0,
+          "cash": 17576000000.0,
+          "revenue_growth": 21.596390228722576
+        },
+        {
+          "fy": 2021,
+          "revenue": 117929000000.0,
+          "operating_income": 46753000000.0,
+          "net_income": 39370000000.0,
+          "gross_profit": null,
+          "rnd": 24655000000.0,
+          "capex": 18690000000.0,
+          "operating_cash_flow": 57683000000.0,
+          "free_cash_flow": 38993000000.0,
+          "eps_diluted": 13.77,
+          "assets": 165987000000.0,
+          "equity": 124879000000.0,
+          "cash": 16601000000.0,
+          "revenue_growth": 37.182574303495606
+        },
+        {
+          "fy": 2022,
+          "revenue": 116609000000.0,
+          "operating_income": 28944000000.0,
+          "net_income": 23200000000.0,
+          "gross_profit": null,
+          "rnd": 35338000000.0,
+          "capex": 31186000000.0,
+          "operating_cash_flow": 50475000000.0,
+          "free_cash_flow": 19289000000.0,
+          "eps_diluted": 8.59,
+          "assets": 185727000000.0,
+          "equity": 125713000000.0,
+          "cash": 14681000000.0,
+          "revenue_growth": -1.1193175554782961
+        },
+        {
+          "fy": 2023,
+          "revenue": 134902000000.0,
+          "operating_income": 46751000000.0,
+          "net_income": 39098000000.0,
+          "gross_profit": null,
+          "rnd": 38483000000.0,
+          "capex": 27045000000.0,
+          "operating_cash_flow": 71113000000.0,
+          "free_cash_flow": 44068000000.0,
+          "eps_diluted": 14.87,
+          "assets": 229623000000.0,
+          "equity": 153168000000.0,
+          "cash": 41862000000.0,
+          "revenue_growth": 15.687468377226457
+        },
+        {
+          "fy": 2024,
+          "revenue": 164501000000.0,
+          "operating_income": 69380000000.0,
+          "net_income": 62360000000.0,
+          "gross_profit": null,
+          "rnd": 43873000000.0,
+          "capex": 37256000000.0,
+          "operating_cash_flow": 91328000000.0,
+          "free_cash_flow": 54072000000.0,
+          "eps_diluted": 23.86,
+          "assets": 276054000000.0,
+          "equity": 182637000000.0,
+          "cash": 43889000000.0,
+          "revenue_growth": 21.941112807816044
+        },
+        {
+          "fy": 2025,
+          "revenue": 200966000000.0,
+          "operating_income": 83276000000.0,
+          "net_income": 60458000000.0,
+          "gross_profit": null,
+          "rnd": 57372000000.0,
+          "capex": 69691000000.0,
+          "operating_cash_flow": 115800000000.0,
+          "free_cash_flow": 46109000000.0,
+          "eps_diluted": 23.49,
+          "assets": 366021000000.0,
+          "equity": 217243000000.0,
+          "cash": 35873000000.0,
+          "revenue_growth": 22.16703849824621
+        }
+      ],
+      "quarterly": [
+        {
+          "fy": 2023,
+          "q": 3,
+          "end": "2023-09-30",
+          "revenue": 34146000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2023,
+          "q": 4,
+          "revenue": 40112000000.0,
+          "derived": true,
+          "end": "2023-12-31"
+        },
+        {
+          "fy": 2024,
+          "q": 1,
+          "end": "2024-03-31",
+          "revenue": 36455000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 2,
+          "end": "2024-06-30",
+          "revenue": 39071000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 3,
+          "end": "2024-09-30",
+          "revenue": 40589000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 4,
+          "revenue": 48386000000.0,
+          "derived": true,
+          "end": "2024-12-31"
+        },
+        {
+          "fy": 2025,
+          "q": 1,
+          "end": "2025-03-31",
+          "revenue": 42314000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 2,
+          "end": "2025-06-30",
+          "revenue": 47516000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 3,
+          "end": "2025-09-30",
+          "revenue": 51242000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 4,
+          "revenue": 59894000000.0,
+          "derived": true,
+          "end": "2025-12-31"
+        },
+        {
+          "fy": 2026,
+          "q": 1,
+          "end": "2026-03-31",
+          "revenue": 56311000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 2,
+          "end": "2026-06-30",
+          "revenue": 60801000000.0,
+          "derived": false
+        }
+      ],
+      "ttm": {
+        "revenue": 228248000000.0,
+        "period_end": "2026-06-30",
+        "period_start": "2025-09-30",
+        "label": "2025 3T - 2026 2T",
+        "growth": 27.651911300019577
+      },
+      "kpi": {
+        "revenue": 200966000000.0,
+        "revenue_growth": 22.16703849824621,
+        "net_income": 60458000000.0,
+        "net_income_growth": -3.0500320718409237,
+        "operating_margin": 41.437855159579236,
+        "net_margin": 30.08369574952977,
+        "gross_margin": null,
+        "rnd_intensity": 28.548112616064408,
+        "free_cash_flow": 46109000000.0,
+        "fcf_margin": 22.943682015863377,
+        "capex": 69691000000.0,
+        "capex_intensity": 34.678005234716316,
+        "roe": 27.82966539773433,
+        "eps_diluted": 23.49,
+        "assets": 366021000000.0
+      },
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+      "filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=10-K"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Automocion y energia",
+      "hq": "Austin, TX",
+      "cik": 1318605,
+      "fiscal_year": 2025,
+      "fiscal_year_label": "FY2025",
+      "fiscal_year_end_month": 12,
+      "annual": [
+        {
+          "fy": 2020,
+          "revenue": 31536000000.0,
+          "operating_income": 1994000000.0,
+          "net_income": 721000000.0,
+          "gross_profit": 6630000000.0,
+          "rnd": 1491000000.0,
+          "capex": 3157000000.0,
+          "operating_cash_flow": 5943000000.0,
+          "free_cash_flow": 2786000000.0,
+          "eps_diluted": 0.21,
+          "assets": 52148000000.0,
+          "equity": 22225000000.0,
+          "cash": 19384000000.0,
+          "revenue_growth": 28.309870615998044
+        },
+        {
+          "fy": 2021,
+          "revenue": 53823000000.0,
+          "operating_income": 6523000000.0,
+          "net_income": 5519000000.0,
+          "gross_profit": 13606000000.0,
+          "rnd": 2593000000.0,
+          "capex": 6482000000.0,
+          "operating_cash_flow": 11497000000.0,
+          "free_cash_flow": 5015000000.0,
+          "eps_diluted": 1.63,
+          "assets": 62131000000.0,
+          "equity": 30189000000.0,
+          "cash": 17576000000.0,
+          "revenue_growth": 70.67161339421614
+        },
+        {
+          "fy": 2022,
+          "revenue": 81462000000.0,
+          "operating_income": 13656000000.0,
+          "net_income": 12556000000.0,
+          "gross_profit": 20853000000.0,
+          "rnd": 3075000000.0,
+          "capex": 7158000000.0,
+          "operating_cash_flow": 14724000000.0,
+          "free_cash_flow": 7566000000.0,
+          "eps_diluted": 3.62,
+          "assets": 82338000000.0,
+          "equity": 44704000000.0,
+          "cash": 16253000000.0,
+          "revenue_growth": 51.35165263920629
+        },
+        {
+          "fy": 2023,
+          "revenue": 96773000000.0,
+          "operating_income": 8891000000.0,
+          "net_income": 14997000000.0,
+          "gross_profit": 17660000000.0,
+          "rnd": 3969000000.0,
+          "capex": 8899000000.0,
+          "operating_cash_flow": 13256000000.0,
+          "free_cash_flow": 4357000000.0,
+          "eps_diluted": 4.3,
+          "assets": 106618000000.0,
+          "equity": 62634000000.0,
+          "cash": 16398000000.0,
+          "revenue_growth": 18.795266504627925
+        },
+        {
+          "fy": 2024,
+          "revenue": 97690000000.0,
+          "operating_income": 7076000000.0,
+          "net_income": 7091000000.0,
+          "gross_profit": 17450000000.0,
+          "rnd": 4540000000.0,
+          "capex": 11342000000.0,
+          "operating_cash_flow": 14923000000.0,
+          "free_cash_flow": 3581000000.0,
+          "eps_diluted": 2.04,
+          "assets": 122070000000.0,
+          "equity": 72913000000.0,
+          "cash": 16139000000.0,
+          "revenue_growth": 0.9475783534663594
+        },
+        {
+          "fy": 2025,
+          "revenue": 94827000000.0,
+          "operating_income": 4355000000.0,
+          "net_income": 3794000000.0,
+          "gross_profit": 17094000000.0,
+          "rnd": 6411000000.0,
+          "capex": 8527000000.0,
+          "operating_cash_flow": 14747000000.0,
+          "free_cash_flow": 6220000000.0,
+          "eps_diluted": 1.08,
+          "assets": 137806000000.0,
+          "equity": 82137000000.0,
+          "cash": 16513000000.0,
+          "revenue_growth": -2.9306991503736306
+        }
+      ],
+      "quarterly": [
+        {
+          "fy": 2023,
+          "q": 3,
+          "end": "2023-09-30",
+          "revenue": 23350000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2023,
+          "q": 4,
+          "revenue": 25167000000.0,
+          "derived": true,
+          "end": "2023-12-31"
+        },
+        {
+          "fy": 2024,
+          "q": 1,
+          "end": "2024-03-31",
+          "revenue": 21301000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 2,
+          "end": "2024-06-30",
+          "revenue": 25500000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 3,
+          "end": "2024-09-30",
+          "revenue": 25182000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2024,
+          "q": 4,
+          "revenue": 25707000000.0,
+          "derived": true,
+          "end": "2024-12-31"
+        },
+        {
+          "fy": 2025,
+          "q": 1,
+          "end": "2025-03-31",
+          "revenue": 19335000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 2,
+          "end": "2025-06-30",
+          "revenue": 22496000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 3,
+          "end": "2025-09-30",
+          "revenue": 28095000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2025,
+          "q": 4,
+          "revenue": 24901000000.0,
+          "derived": true,
+          "end": "2025-12-31"
+        },
+        {
+          "fy": 2026,
+          "q": 1,
+          "end": "2026-03-31",
+          "revenue": 22387000000.0,
+          "derived": false
+        },
+        {
+          "fy": 2026,
+          "q": 2,
+          "end": "2026-06-30",
+          "revenue": 28236000000.0,
+          "derived": false
+        }
+      ],
+      "ttm": {
+        "revenue": 103619000000.0,
+        "period_end": "2026-06-30",
+        "period_start": "2025-09-30",
+        "label": "2025 3T - 2026 2T",
+        "growth": 11.75474547023296
+      },
+      "kpi": {
+        "revenue": 94827000000.0,
+        "revenue_growth": -2.9306991503736306,
+        "net_income": 3794000000.0,
+        "net_income_growth": -46.495557749259625,
+        "operating_margin": 4.592573845001951,
+        "net_margin": 4.000970187815707,
+        "gross_margin": 18.026511436616154,
+        "rnd_intensity": 6.760732702711253,
+        "free_cash_flow": 6220000000.0,
+        "fcf_margin": 6.559313275754795,
+        "capex": 8527000000.0,
+        "capex_intensity": 8.992164678836197,
+        "roe": 4.619111971462313,
+        "eps_diluted": 1.08,
+        "assets": 137806000000.0
+      },
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json",
+      "filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-K"
+    }
+  ]
+}

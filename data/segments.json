@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "generated_at": "2026-09-24T19:26:57-05:00",
+    "source": "SEC EDGAR - documento de instancia XBRL del ultimo 10-K de cada compania",
+    "note": "Reparto de ingresos resuelto desde los contextos dimensionales (ejes de segmento, producto y geografia). 'Otros' es el residuo hasta el total consolidado."
+  },
+  "companies": {
+    "NVDA": {
+      "fiscal_year": 2026,
+      "period_start": "2025-01-27",
+      "period_end": "2026-01-25",
+      "total_revenue": 215938000000.0,
+      "breakdowns": {
+        "geografia": [
+          {
+            "member": "country:US",
+            "label": "Estados Unidos",
+            "revenue": 149617000000.0,
+            "share": 69.28701756985801
+          },
+          {
+            "member": "country:TW",
+            "label": "Taiwán",
+            "revenue": 42345000000.0,
+            "share": 19.6097954042364
+          },
+          {
+            "member": "nvda:ChinaIncludingHongKongMember",
+            "label": "China (incl. Hong Kong)",
+            "revenue": 19677000000.0,
+            "share": 9.112337800665006
+          },
+          {
+            "member": "nvda:OtherCountriesMember",
+            "label": "Resto de países",
+            "revenue": 4299000000.0,
+            "share": 1.9908492252405783
+          }
+        ],
+        "producto": [
+          {
+            "member": "nvda:ComputeMember",
+            "label": "Cómputo (centros de datos)",
+            "revenue": 162361000000.0,
+            "share": 75.18871157461864
+          },
+          {
+            "member": "nvda:NetworkingMember",
+            "label": "Redes",
+            "revenue": 31376000000.0,
+            "share": 14.53009660180237
+          },
+          {
+            "member": "nvda:GamingMember",
+            "label": "Gaming",
+            "revenue": 16042000000.0,
+            "share": 7.428984245477868
+          },
+          {
+            "member": "nvda:ProfessionalVisualizationMember",
+            "label": "Visualización profesional",
+            "revenue": 3191000000.0,
+            "share": 1.4777389806333299
+          },
+          {
+            "member": "nvda:AutomotiveMember",
+            "label": "Automoción",
+            "revenue": 2349000000.0,
+            "share": 1.087812242402912
+          },
+          {
+            "member": "nvda:OEMAndOtherMember",
+            "label": "OEM y otros",
+            "revenue": 619000000.0,
+            "share": 0.28665635506487974
+          }
+        ]
+      },
+      "filing": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    "AAPL": {
+      "fiscal_year": 2025,
+      "period_start": "2024-09-29",
+      "period_end": "2025-09-27",
+      "total_revenue": 416161000000.0,
+      "breakdowns": {
+        "producto": [
+          {
+            "member": "aapl:IPhoneMember",
+            "label": "iPhone",
+            "revenue": 209586000000.0,
+            "share": 50.361759030759735
+          },
+          {
+            "member": "us-gaap:ServiceMember",
+            "label": "Servicios",
+            "revenue": 109158000000.0,
+            "share": 26.22975242754607
+          },
+          {
+            "member": "aapl:WearablesHomeandAccessoriesMember",
+            "label": "Wearables y hogar",
+            "revenue": 35686000000.0,
+            "share": 8.575046676646778
+          },
+          {
+            "member": "aapl:MacMember",
+            "label": "Mac",
+            "revenue": 33708000000.0,
+            "share": 8.099749856425758
+          },
+          {
+            "member": "aapl:IPadMember",
+            "label": "iPad",
+            "revenue": 28023000000.0,
+            "share": 6.733692008621663
+          }
+        ],
+        "geografia": [
+          {
+            "member": "aapl:OtherCountriesMember",
+            "label": "Resto de países",
+            "revenue": 199994000000.0,
+            "share": 48.05688183179106
+          },
+          {
+            "member": "country:US",
+            "label": "Estados Unidos",
+            "revenue": 151790000000.0,
+            "share": 36.473864682178295
+          },
+          {
+            "member": "country:CN",
+            "label": "China",
+            "revenue": 64377000000.0,
+            "share": 15.469253486030645
+          }
+        ]
+      },
+      "filing": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+    },
+    "MSFT": {
+      "fiscal_year": 2026,
+      "period_start": "2025-07-01",
+      "period_end": "2026-06-30",
+      "total_revenue": 331839000000.0,
+      "breakdowns": {
+        "producto": [
+          {
+            "member": "msft:ServerProductsAndCloudServicesMember",
+            "label": "Servidores y nube (Azure)",
+            "revenue": 129425000000.0,
+            "share": 39.002347523949865
+          },
+          {
+            "member": "msft:MicrosoftThreeSixFiveCommercialProductsAndCloudServicesMember",
+            "label": "Microsoft 365 empresas",
+            "revenue": 101997000000.0,
+            "share": 30.736893493531504
+          },
+          {
+            "member": "msft:XBOXMember",
+            "label": "Xbox",
+            "revenue": 21790000000.0,
+            "share": 6.566437338588894
+          },
+          {
+            "member": "msft:LinkedInCorporationMember",
+            "label": "LinkedIn",
+            "revenue": 19817000000.0,
+            "share": 5.97187190173548
+          },
+          {
+            "member": "msft:WindowsAndDevicesMember",
+            "label": "Windows y dispositivos",
+            "revenue": 17084000000.0,
+            "share": 5.148279738065749
+          },
+          {
+            "member": "msft:SearchAdvertisingMember",
+            "label": "Buscador y publicidad",
+            "revenue": 15176000000.0,
+            "share": 4.5733021133742575
+          },
+          {
+            "member": "msft:MicrosoftThreeSixFiveConsumerProductsAndCloudServicesMember",
+            "label": "Microsoft 365 consumo",
+            "revenue": 9175000000.0,
+            "share": 2.76489502439436
+          },
+          {
+            "member": "msft:DynamicsProductsAndCloudServicesMember",
+            "label": "Dynamics",
+            "revenue": 9006000000.0,
+            "share": 2.7139667127733627
+          },
+          {
+            "member": "msft:EnterpriseAndPartnerServicesMember",
+            "label": "Servicios a empresas",
+            "revenue": 8260000000.0,
+            "share": 2.489158899345767
+          },
+          {
+            "member": "msft:OtherProductsAndServicesMember",
+            "label": "Otros",
+            "revenue": 109000000.0,
+            "share": 0.032847254240761334
+          }
+        ],
+        "segmento": [
+          {
+            "member": "msft:ProductivityAndBusinessProcessesMember",
+            "label": "Productividad y procesos",
+            "revenue": 139996000000.0,
+            "share": 42.18792848339104
+          },
+          {
+            "member": "msft:IntelligentCloudMember",
+            "label": "Nube inteligente",
+            "revenue": 137791000000.0,
+            "share": 41.523449624667386
+          },
+          {
+            "member": "msft:MorePersonalComputingMember",
+            "label": "Computación personal",
+            "revenue": 54052000000.0,
+            "share": 16.288621891941574
+          }
+        ],
+        "geografia": [
+          {
+            "member": "country:US",
+            "label": "Estados Unidos",
+            "revenue": 170794000000.0,
+            "share": 51.46893523666597
+          },
+          {
+            "member": "us-gaap:NonUsMember",
+            "label": "Resto del mundo",
+            "revenue": 161045000000.0,
+            "share": 48.53106476333402
+          }
+        ]
+      },
+      "filing": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+    },
+    "GOOGL": {
+      "fiscal_year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "total_revenue": 402836000000.0,
+      "breakdowns": {
+        "segmento": [
+          {
+            "member": "goog:GoogleServicesMember",
+            "label": "Google Services",
+            "revenue": 342721000000.0,
+            "share": 85.07705368934256
+          },
+          {
+            "member": "goog:GoogleCloudMember",
+            "label": "Google Cloud",
+            "revenue": 58705000000.0,
+            "share": 14.572927940899024
+          },
+          {
+            "member": "us-gaap:AllOtherSegmentsMember",
+            "label": "Other Bets y otros",
+            "revenue": 1537000000.0,
+            "share": 0.38154484703452524
+          }
+        ],
+        "geografia": [
+          {
+            "member": "country:US",
+            "label": "Estados Unidos",
+            "revenue": 194229000000.0,
+            "share": 48.2154027941892
+          },
+          {
+            "member": "us-gaap:EMEAMember",
+            "label": "EMEA",
+            "revenue": 117152000000.0,
+            "share": 29.08180996733162
+          },
+          {
+            "member": "srt:AsiaPacificMember",
+            "label": "Asia-Pacífico",
+            "revenue": 67680000000.0,
+            "share": 16.800881748403818
+          },
+          {
+            "member": "goog:AmericasExcludingUnitedStatesMember",
+            "label": "América (sin EE. UU.)",
+            "revenue": 23902000000.0,
+            "share": 5.933431967351479
+          }
+        ]
+      },
+      "filing": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"
+    },
+    "AMZN": {
+      "fiscal_year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "total_revenue": 716924000000.0,
+      "breakdowns": {
+        "producto": [
+          {
+            "member": "amzn:OnlineStoresMember",
+            "label": "Tienda online",
+            "revenue": 269287000000.0,
+            "share": 37.56144305393598
+          },
+          {
+            "member": "amzn:ThirdPartySellerServicesMember",
+            "label": "Vendedores externos",
+            "revenue": 172162000000.0,
+            "share": 24.013981956246408
+          },
+          {
+            "member": "amzn:AmazonWebServicesMember",
+            "label": "AWS",
+            "revenue": 128725000000.0,
+            "share": 17.955180744402472
+          },
+          {
+            "member": "us-gaap:AdvertisingMember",
+            "label": "Publicidad",
+            "revenue": 68635000000.0,
+            "share": 9.573539175700633
+          },
+          {
+            "member": "amzn:SubscriptionServicesMember",
+            "label": "Suscripciones",
+            "revenue": 49619000000.0,
+            "share": 6.921096238931882
+          },
+          {
+            "member": "amzn:PhysicalStoresMember",
+            "label": "Tienda física",
+            "revenue": 22561000000.0,
+            "share": 3.1469165490344864
+          },
+          {
+            "member": "amzn:OtherServicesMember",
+            "label": "Otros servicios",
+            "revenue": 5935000000.0,
+            "share": 0.827842281748135
+          }
+        ],
+        "segmento": [
+          {
+            "member": "amzn:NorthAmericaSegmentMember",
+            "label": "Norteamérica",
+            "revenue": 426305000000.0,
+            "share": 59.46306721493492
+          },
+          {
+            "member": "amzn:InternationalSegmentMember",
+            "label": "Internacional",
+            "revenue": 161894000000.0,
+            "share": 22.581752040662607
+          },
+          {
+            "member": "amzn:AmazonWebServicesSegmentMember",
+            "label": "AWS",
+            "revenue": 128725000000.0,
+            "share": 17.955180744402472
+          }
+        ],
+        "geografia": [
+          {
+            "member": "country:US",
+            "label": "Estados Unidos",
+            "revenue": 489657000000.0,
+            "share": 68.2997081978006
+          },
+          {
+            "member": "us-gaap:NonUsMember",
+            "label": "Resto del mundo",
+            "revenue": 107467000000.0,
+            "share": 14.990012888395423
+          },
+          {
+            "member": "country:DE",
+            "label": "Alemania",
+            "revenue": 45900000000.0,
+            "share": 6.402352271649436
+          },
+          {
+            "member": "country:GB",
+            "label": "Reino Unido",
+            "revenue": 43212000000.0,
+            "share": 6.027417132080946
+          },
+          {
+            "member": "country:JP",
+            "label": "Japón",
+            "revenue": 30688000000.0,
+            "share": 4.280509510073592
+          }
+        ]
+      },
+      "filing": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+    },
+    "META": {
+      "fiscal_year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "total_revenue": 200966000000.0,
+      "breakdowns": {
+        "segmento": [
+          {
+            "member": "meta:FamilyOfAppsMember",
+            "label": "Familia de apps",
+            "revenue": 198759000000.0,
+            "share": 98.90180428530199
+          },
+          {
+            "member": "meta:RealityLabsMember",
+            "label": "Reality Labs",
+            "revenue": 2207000000.0,
+            "share": 1.0981957146980086
+          }
+        ],
+        "geografia": [
+          {
+            "member": "meta:USCanadaMember",
+            "label": "EE. UU. y Canadá",
+            "revenue": 78866000000.0,
+            "share": 39.243454116616746
+          },
+          {
+            "member": "srt:AsiaPacificMember",
+            "label": "Asia-Pacífico",
+            "revenue": 53817000000.0,
+            "share": 26.77915667326812
+          },
+          {
+            "member": "srt:EuropeMember",
+            "label": "Europa",
+            "revenue": 46569000000.0,
+            "share": 23.172576455718875
+          },
+          {
+            "member": "meta:RestOfWorldMember",
+            "label": "Resto del mundo",
+            "revenue": 21714000000.0,
+            "share": 10.804812754396266
+          }
+        ]
+      },
+      "filing": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm"
+    },
+    "TSLA": {
+      "fiscal_year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "total_revenue": 94827000000.0,
+      "breakdowns": {
+        "producto": [
+          {
+            "member": "tsla:AutomotiveSalesMember",
+            "label": "Venta de vehículos",
+            "revenue": 65821000000.0,
+            "share": 69.41166545393189
+          },
+          {
+            "member": "tsla:ServicesAndOtherMember",
+            "label": "Servicios y otros",
+            "revenue": 12530000000.0,
+            "share": 13.213536229133052
+          },
+          {
+            "member": "tsla:EnergyGenerationAndStorageSalesMember",
+            "label": "Energía (venta)",
+            "revenue": 12270000000.0,
+            "share": 12.93935271599861
+          },
+          {
+            "member": "tsla:AutomotiveRegulatoryCreditsMember",
+            "label": "Créditos regulatorios",
+            "revenue": 1993000000.0,
+            "share": 2.101722083372879
+          },
+          {
+            "member": "tsla:AutomotiveLeasingMember",
+            "label": "Leasing de vehículos",
+            "revenue": 1712000000.0,
+            "share": 1.8053929787929597
+          },
+          {
+            "member": "tsla:EnergyGenerationAndStorageLeasingMember",
+            "label": "Energía (leasing)",
+            "revenue": 501000000.0,
+            "share": 0.5283305387706033
+          }
+        ],
+        "segmento": [
+          {
+            "member": "tsla:AutomotiveSegmentMember",
+            "label": "Automoción",
+            "revenue": 82056000000.0,
+            "share": 86.53231674523079
+          },
+          {
+            "member": "tsla:EnergyGenerationAndStorageSegmentMember",
+            "label": "Energía y almacenamiento",
+            "revenue": 12771000000.0,
+            "share": 13.467683254769211
+          }
+        ],
+        "geografia": [
+          {
+            "member": "country:US",
+            "label": "Estados Unidos",
+            "revenue": 47627000000.0,
+            "share": 50.22514684636232
+          },
+          {
+            "member": "tsla:OtherCountriesMember",
+            "label": "Resto de países",
+            "revenue": 26238000000.0,
+            "share": 27.669334683159857
+          },
+          {
+            "member": "country:CN",
+            "label": "China",
+            "revenue": 20962000000.0,
+            "share": 22.10551847047782
+          }
+        ]
+      },
+      "filing": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas Financiero · Big Tech</title>
+<meta name="description" content="Dashboard de analisis financiero de las siete mayores tecnologicas cotizadas, construido sobre los datos XBRL que presentan a la SEC.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%232a78d6'/><rect x='24' y='50' width='12' height='26' rx='4' fill='white'/><rect x='44' y='34' width='12' height='42' rx='4' fill='white'/><rect x='64' y='22' width='12' height='54' rx='4' fill='white'/></svg>">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="shell">
+
+  <!-- ───────────────── barra lateral ───────────────── -->
+  <aside class="rail">
+    <div class="rail__brand" title="Atlas Financiero">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="26"/><rect class="b" x="24" y="50" width="12" height="26" rx="4"/><rect class="b" x="44" y="34" width="12" height="42" rx="4"/><rect class="b" x="64" y="22" width="12" height="54" rx="4"/></svg>
+    </div>
+    <nav class="rail__nav" aria-label="Secciones">
+      <a class="rail__item is-active" href="#resumen" data-nav="resumen">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4v9Zm0 7h6v-5H4v5Zm10 0h6V11h-6v9Zm0-16v5h6V4h-6Z"/></svg>
+        <span>Resumen</span>
+      </a>
+      <a class="rail__item" href="#comparativa" data-nav="comparativa">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V9h4v12H5Zm5.5 0V3h4v18h-4ZM16 21v-8h4v8h-4Z"/></svg>
+        <span>Ranking</span>
+      </a>
+      <a class="rail__item" href="#trayectoria" data-nav="trayectoria">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 17.5 9 12l3.5 3.5L21 7l-1.4-1.4-7.1 7.1L9 9.2l-6.9 6.9 1.4 1.4Z"/></svg>
+        <span>Trayectoria</span>
+      </a>
+      <a class="rail__item" href="#mezcla" data-nav="mezcla">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 2v9H2a9 9 0 0 0 9 9 9 9 0 0 0 9-9h-9V2Zm2 0v7h7a7 7 0 0 0-7-7Z"/></svg>
+        <span>Mezcla</span>
+      </a>
+      <a class="rail__item" href="#datos" data-nav="datos">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v3H4V5Zm0 5.5h16v3H4v-3ZM4 16h16v3H4v-3Z"/></svg>
+        <span>Datos</span>
+      </a>
+    </nav>
+    <button class="rail__item rail__theme" id="themeToggle" type="button" aria-label="Cambiar tema">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-sun"><path d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-13.5V1m0 22v-2.5M20.5 12H23M1 12h2.5m14.8-6.3 1.8-1.8M3.9 20.1l1.8-1.8m0-12.6L3.9 3.9m16.2 16.2-1.8-1.8" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-moon"><path d="M21 13.3A9 9 0 1 1 10.7 3a7 7 0 0 0 10.3 10.3Z"/></svg>
+      <span>Tema</span>
+    </button>
+  </aside>
+
+  <main class="main">
+
+    <!-- ───────────────── cabecera ───────────────── -->
+    <header class="topbar">
+      <div class="topbar__title">
+        <h1>Atlas Financiero <span>Big&nbsp;Tech</span></h1>
+        <p id="periodLine">Ultimo ejercicio fiscal reportado &middot; datos XBRL de la SEC</p>
+      </div>
+      <div class="topbar__tools">
+        <label class="search" aria-label="Buscar compania">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 18a8 8 0 1 1 6.32-3.1l5.39 5.39-1.42 1.42-5.39-5.39A7.96 7.96 0 0 1 10 18Zm0-2a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"/></svg>
+          <input id="search" type="search" placeholder="Filtrar companias…" autocomplete="off">
+        </label>
+        <div class="seg" role="group" aria-label="Base de comparacion">
+          <button type="button" class="is-active" data-basis="fy">Ejercicio fiscal</button>
+          <button type="button" data-basis="ttm">Ultimos 12 meses</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ───────────────── KPI ───────────────── -->
+    <section id="resumen" class="section">
+      <div class="tiles" id="tiles"></div>
+    </section>
+
+    <!-- ───────────────── ranking ───────────────── -->
+    <section id="comparativa" class="grid grid--main">
+      <article class="card card--chart">
+        <header class="card__head">
+          <div>
+            <h2>Comparativa por compania</h2>
+            <p class="card__sub" id="columnSub"></p>
+          </div>
+          <div class="seg seg--sm" role="group" aria-label="Metrica">
+            <button type="button" class="is-active" data-metric="revenue">Ingresos</button>
+            <button type="button" data-metric="net_income">Beneficio</button>
+            <button type="button" data-metric="capex">Capex</button>
+            <button type="button" data-metric="free_cash_flow">Caja libre</button>
+          </div>
+        </header>
+        <div class="chart chart--column" id="columnChart"></div>
+        <footer class="legend" id="columnLegend"></footer>
+      </article>
+
+      <article class="card card--rank">
+        <header class="card__head">
+          <div>
+            <h2>Ranking</h2>
+            <p class="card__sub">Pulsa una compania para fijarla en el resto del panel</p>
+          </div>
+        </header>
+        <ol class="rank" id="rankList"></ol>
+      </article>
+    </section>
+
+    <!-- ───────────────── trayectoria + mezcla ───────────────── -->
+    <section id="trayectoria" class="grid grid--split">
+      <article class="card card--chart">
+        <header class="card__head">
+          <div>
+            <h2 id="trendTitle">Trayectoria trimestral</h2>
+            <p class="card__sub" id="trendSub"></p>
+          </div>
+          <span class="pill" id="trendPill"></span>
+        </header>
+        <div class="chart chart--area" id="areaChart"></div>
+      </article>
+
+      <article class="card card--chart" id="mezcla">
+        <header class="card__head">
+          <div>
+            <h2 id="mixTitle">Mezcla de ingresos</h2>
+            <p class="card__sub" id="mixSub"></p>
+          </div>
+          <div class="seg seg--sm" id="mixAxis" role="group" aria-label="Eje de desglose"></div>
+        </header>
+        <div class="mix">
+          <div class="chart chart--donut" id="donutChart"></div>
+          <ul class="mix__legend" id="mixLegend"></ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- ───────────────── posicionamiento + lectura ───────────────── -->
+    <section class="grid grid--split">
+      <article class="card card--chart">
+        <header class="card__head">
+          <div>
+            <h2>Crecimiento frente a rentabilidad</h2>
+            <p class="card__sub">Margen operativo y crecimiento de ingresos del ultimo ejercicio. El area del circulo es proporcional a los ingresos.</p>
+          </div>
+        </header>
+        <div class="chart chart--bubble" id="bubbleChart"></div>
+      </article>
+
+      <article class="card">
+        <header class="card__head">
+          <div>
+            <h2>Lectura del analista</h2>
+            <p class="card__sub">Conclusiones calculadas sobre las cifras cargadas, no redactadas a mano</p>
+          </div>
+        </header>
+        <ul class="insights" id="insights"></ul>
+      </article>
+    </section>
+
+    <!-- ───────────────── tabla ───────────────── -->
+    <section id="datos" class="section">
+      <article class="card">
+        <header class="card__head">
+          <div>
+            <h2>Tabla comparativa</h2>
+            <p class="card__sub">Cifras en millones de dolares, tal y como se presentan en el 10-K. Pulsa una cabecera para ordenar.</p>
+          </div>
+          <button class="btn" id="exportCsv" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16l-5-5h3V4h4v7h3l-5 5Zm-7 2h14v2H5v-2Z"/></svg>
+            Exportar CSV
+          </button>
+        </header>
+        <div class="table-wrap">
+          <table class="table" id="dataTable">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <footer class="foot">
+      <div>
+        <strong>Fuente</strong>
+        <p id="sourceLine"></p>
+      </div>
+      <div>
+        <strong>Metodologia</strong>
+        <p>Los totales salen de la API <em>company facts</em> de la SEC; el desglose por segmento, producto y geografia se resuelve leyendo los contextos dimensionales de la instancia XBRL de cada 10-K. El ultimo trimestre de cada ejercicio se deriva restando los tres publicados al anual auditado.</p>
+      </div>
+      <div>
+        <strong>Aviso</strong>
+        <p>Panel de analisis con fines informativos. No constituye recomendacion de inversion.</p>
+      </div>
+    </footer>
+
+  </main>
+</div>
+
+<div class="tip" id="tooltip" role="status" aria-live="polite"></div>
+
+<script src="data/dataset.js"></script>
+<script src="assets/js/format.js"></script>
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Descargas cacheadas de la SEC (instancias XBRL, varios MB)
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Sistema
+Thumbs.db
+.DS_Store
