@@ -4,7 +4,9 @@ Dashboard de análisis financiero de las siete mayores tecnológicas cotizadas d
 Todas las cifras se extraen de los documentos que las propias compañías presentan a la
 **SEC** (formularios 10-K y 10-Q en XBRL). No hay datos escritos a mano ni estimaciones.
 
-<!-- Sustituye por una captura propia: docs/preview.png -->
+![Atlas Financiero](docs/screenshots/01-inicio.png)
+
+> **Cómo está hecho:** [Guía del código](docs/GUIA-DEL-CODIGO.md) en español: ETL contra la SEC, ejercicios fiscales, trimestres derivados, desgloses sin duplicar y gráficos SVG sin librerías.
 
 | | |
 |---|---|
@@ -44,6 +46,19 @@ El panel lo trata de forma explícita:
 | **Lectura del analista** | Conclusiones calculadas sobre los datos cargados, no redactadas a mano |
 | **Tabla** | Doce columnas ordenables y exportación a CSV |
 
+## Capturas
+
+| | |
+|---|---|
+| ![Comparativa](docs/screenshots/02-comparativa.png) | ![Trayectoria](docs/screenshots/03-trayectoria.png) |
+| **Comparativa** del ejercicio actual frente al anterior | **Trayectoria trimestral** (los puntos huecos son trimestres derivados) |
+| ![Mezcla](docs/screenshots/04-mezcla.png) | ![Lectura del analista](docs/screenshots/05-lectura-del-analista.png) |
+| **Mezcla de ingresos** por producto y geografía | **Lectura del analista** calculada sobre los datos |
+| ![Últimos 12 meses](docs/screenshots/07-ultimos-12-meses.png) | ![Tabla](docs/screenshots/06-tabla.png) |
+| Base **últimos 12 meses**, homogénea entre compañías | **Tabla** ordenable con exportación a CSV |
+| ![Modo oscuro](docs/screenshots/08-modo-oscuro.png) | |
+| **Modo oscuro** con pasos de color propios | |
+
 ## Estructura
 
 ```
@@ -59,10 +74,11 @@ El panel lo trata de forma explícita:
 │   ├── financials.json         Totales consolidados por ejercicio y trimestre
 │   ├── segments.json           Reparto de ingresos por segmento, producto y geografía
 │   └── dataset.js              Los dos anteriores empaquetados para abrir sin servidor
-└── scripts/
-    ├── fetch_sec_data.py       ETL contra la API company facts
-    ├── fetch_segments.py       ETL contra la instancia XBRL de cada 10-K
-    └── build_bundle.py         Empaquetado
+├── scripts/
+│   ├── fetch_sec_data.py       ETL contra la API company facts
+│   ├── fetch_segments.py       ETL contra la instancia XBRL de cada 10-K
+│   └── build_bundle.py         Empaquetado
+└── docs/                       Capturas y guía del código
 ```
 
 ## Uso
